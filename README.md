@@ -1,4 +1,4 @@
-# vue-tailwindcss
+# Using Vue 3 & Tailwind CSS with less of a learning curve
 
 #### This sample app is using vanilla Vue 3. The point of this is to prove that Tailwind CSS can be used just like regular CSS. Only difference is that "@apply" is used.
 
