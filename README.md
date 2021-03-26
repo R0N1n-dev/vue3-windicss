@@ -21,8 +21,6 @@ h1 {
 
 ##
 
-#### Included is everything needed to make Tailwind CSS work.
-
 #### If you are using VS Code, then you need to have Vetur installed and setup. Open settings.json in VS Code and make sure this is included:
 ```
 "tailwindCSS.includeLanguages": {
