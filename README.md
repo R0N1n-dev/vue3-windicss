@@ -2,6 +2,22 @@
 
 #### This sample app is using vanilla Vue 3. The point of this is to prove that Tailwind CSS can be used just like regular CSS. Only difference is that "@apply" is used.
 
+## Example
+
+### Instead of using:
+```
+h1 {
+  color: blue;
+}
+```
+
+### You will be using:
+```
+h1 {
+  @apply text-blue-500;
+}
+```
+
 #### Included is everything needed to make Tailwind CSS work.
 
 #### If you are using VS Code, then you need to have Vetur installed and setup. Open settings.json in VS Code and make sure this is included:
