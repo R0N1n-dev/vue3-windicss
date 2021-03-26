@@ -17,6 +17,8 @@ h1 {
   @apply text-blue-500;
 }
 ```
+#### The only learning curves with this is figuring out all of the Tailwind CSS class names and having to add "@apply". Vetur can help with this.
+
 ##
 
 #### Included is everything needed to make Tailwind CSS work.
