@@ -16,7 +16,7 @@ export default {
 
 <style>
 #app {
-  @apply antialiased text-center text-gray-800 text-base mt-20;
+  @apply antialiased text-center text-gray-800 text-base mt-10;
 }
 
 .logo {
