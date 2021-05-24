@@ -8,8 +8,7 @@
         >vue-cli documentation</a
       >.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul></ul>
+    <h3>Styled with Tailwindcss</h3>
     <h3>Essential Links</h3>
     <ul>
       <li>
@@ -63,6 +62,11 @@
           target="_blank"
           rel="noopener"
           >awesome-vue</a
+        >
+      </li>
+      <li>
+        <a href="https://tailwindcss.com/" target="_blank" rel="noopener"
+          >tailwindcss</a
         >
       </li>
     </ul>
