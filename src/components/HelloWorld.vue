@@ -8,7 +8,7 @@
         >vue-cli documentation</a
       >.
     </p>
-    <h3>Styled with Tailwindcss</h3>
+    <h3>Styled with Tailwindcss using @apply</h3>
     <h3>Essential Links</h3>
     <ul>
       <li>
