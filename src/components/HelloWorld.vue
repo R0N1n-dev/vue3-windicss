@@ -11,7 +11,7 @@
       .
     </p>
     <p class="description">Styled with Windi CSS using @apply</p>
-    <h3>Essential Links</h3>
+    <header>Essential Links</header>
     <ul>
       <li>
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
@@ -35,7 +35,7 @@
         <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
       </li>
     </ul>
-    <h3>Ecosystem</h3>
+    <header>Ecosystem</header>
     <ul>
       <li>
         <a href="https://router.vuejs.org" target="_blank" rel="noopener">
@@ -87,7 +87,7 @@ export default {
 </script>
 
 <style scoped>
-h3 {
+header {
   @apply mt-10 mb-0 mx-0 font-bold;
 }
 .description {
