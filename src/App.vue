@@ -26,6 +26,6 @@ export default {
 }
 
 .logo {
-  @apply inline-block text-center aspect-none;
+  @apply inline-block text-center aspect-none h-50 w-50;
 }
 </style>
