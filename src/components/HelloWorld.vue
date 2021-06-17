@@ -2,11 +2,13 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br />
+      For a guide and recipes on how to configure / customize this project,
+      <br />
       check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">
+        vue-cli documentation
+      </a>
+      .
     </p>
     <h3>Styled with Tailwind CSS using @apply</h3>
     <h3>Essential Links</h3>
@@ -15,19 +17,19 @@
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
       </li>
       <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
-        >
+        <a href="https://forum.vuejs.org" target="_blank" rel="noopener">
+          Forum
+        </a>
       </li>
       <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
+        <a href="https://chat.vuejs.org" target="_blank" rel="noopener">
+          Community Chat
+        </a>
       </li>
       <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
-        >
+        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">
+          Twitter
+        </a>
       </li>
       <li>
         <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
@@ -36,9 +38,9 @@
     <h3>Ecosystem</h3>
     <ul>
       <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
+        <a href="https://router.vuejs.org" target="_blank" rel="noopener">
+          vue-router
+        </a>
       </li>
       <li>
         <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
@@ -48,26 +50,28 @@
           href="https://github.com/vuejs/vue-devtools#vue-devtools"
           target="_blank"
           rel="noopener"
-          >vue-devtools</a
         >
+          vue-devtools
+        </a>
       </li>
       <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
-        >
+        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">
+          vue-loader
+        </a>
       </li>
       <li>
         <a
           href="https://github.com/vuejs/awesome-vue"
           target="_blank"
           rel="noopener"
-          >awesome-vue</a
         >
+          awesome-vue
+        </a>
       </li>
       <li>
-        <a href="https://tailwindcss.com/" target="_blank" rel="noopener"
-          >tailwindcss</a
-        >
+        <a href="https://tailwindcss.com/" target="_blank" rel="noopener">
+          tailwindcss
+        </a>
       </li>
     </ul>
   </div>
@@ -77,15 +81,15 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
-  @apply mt-10 mb-0 mx-0 font-bold;
+  @apply mt-10 mb-0 mx-0 font-semibold;
 }
 ul {
   @apply p-0 list-none;
@@ -94,6 +98,6 @@ li {
   @apply inline-block my-0 mx-3;
 }
 a {
-  @apply text-green-500;
+  @apply text-blue-500;
 }
 </style>
