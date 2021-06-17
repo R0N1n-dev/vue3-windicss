@@ -1,11 +1,5 @@
 <template>
-  <img
-    class="logo"
-    width="400"
-    height="400"
-    alt="Vue logo"
-    src="./assets/logo.png"
-  />
+  <img class="logo" alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
@@ -26,6 +20,6 @@ export default {
 }
 
 .logo {
-  @apply inline-block text-center aspect-none h-100 w-100;
+  @apply inline-block text-center;
 }
 </style>

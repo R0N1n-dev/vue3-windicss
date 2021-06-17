@@ -1,5 +1,3 @@
-const { transform } = require('windicss/helpers')
-
 module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -8,5 +6,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [transform('@tailwindcss/aspect-ratio')],
+  plugins: [],
 }
