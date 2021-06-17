@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 h3 {
-  @apply mt-10 mb-0 mx-0 font-semibold;
+  @apply mt-10 mb-0 mx-0 font-bold;
 }
 ul {
   @apply p-0 list-none;
