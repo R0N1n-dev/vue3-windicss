@@ -10,7 +10,7 @@
       </a>
       .
     </p>
-    <h3>Styled with Tailwind CSS using @apply</h3>
+    <h3>Styled with Windi CSS using @apply</h3>
     <h3>Essential Links</h3>
     <ul>
       <li>
