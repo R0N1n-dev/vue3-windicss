@@ -1,8 +1,8 @@
 <template>
   <img
     class="logo"
-    width="192"
-    height="192"
+    width="200"
+    height="200"
     alt="Vue logo"
     src="./assets/logo.png"
   />

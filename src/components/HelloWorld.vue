@@ -100,6 +100,6 @@ li {
   @apply inline-block my-0 mx-3;
 }
 a {
-  @apply text-green-800;
+  @apply text-green-800 text-base;
 }
 </style>
