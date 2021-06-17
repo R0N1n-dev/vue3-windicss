@@ -10,7 +10,7 @@
       </a>
       .
     </p>
-    <h3>Styled with Windi CSS using @apply</h3>
+    <p class="description">Styled with Windi CSS using @apply</p>
     <h3>Essential Links</h3>
     <ul>
       <li>
@@ -90,6 +90,9 @@ export default {
 h3 {
   @apply mt-10 mb-0 mx-0 font-bold;
 }
+.description {
+  @apply mt-10 mb-0 mx-0 font-bold;
+}
 ul {
   @apply p-0 list-none;
 }
@@ -97,6 +100,6 @@ li {
   @apply inline-block my-0 mx-3;
 }
 a {
-  @apply text-green-500;
+  @apply text-green-800;
 }
 </style>
