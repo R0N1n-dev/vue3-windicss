@@ -1,3 +1,5 @@
+import colors from 'windicss/colors'
+
 module.exports = {
   mode: 'jit',
   purge: {
@@ -6,7 +8,11 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        ...colors,
+      },
+    },
   },
   variants: {
     extend: {},

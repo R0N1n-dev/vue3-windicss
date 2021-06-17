@@ -86,7 +86,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   @apply mt-10 mb-0 mx-0 font-semibold;
