@@ -18,7 +18,7 @@ export default {
 
 <style>
 #app {
-  @apply antialiased text-center text-gray-800 text-base mt-10 font-semibold;
+  @apply antialiased text-center text-gray-800 mt-10 font-semibold;
 }
 .logo {
   @apply inline-block text-center;
