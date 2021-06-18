@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="antialiased text-center text-gray-800 font-semibold prose-lg">
     <svg
-      class="logo"
+      class="inline-block h-50 w-50"
       viewBox="0 0 261.76 226.69"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -23,15 +23,3 @@
     <p>Vue 3 and Windi CSS using @apply</p>
   </div>
 </template>
-
-<style>
-#app {
-  @apply antialiased text-center text-gray-800 mt-10 font-semibold;
-}
-.logo {
-  @apply inline-block text-center h-50 w-50;
-}
-p {
-  @apply mt-10 mb-0 mx-0 font-semibold;
-}
-</style>
